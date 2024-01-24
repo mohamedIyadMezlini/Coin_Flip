@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Flip</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Coin Flip</h1>
+  <div onclick="
+    coinFlip('head');
+  "><img class="head" src="head.png"></div>
+  <div onclick="
+    coinFlip('tail');
+  "><img class="tail" src="tail.png"></div>
+  <p class="result"></p>
+  <p class="moves"></p>
+  <p class="scores"></p>
+  <button onclick="
+    score.wins = 0;
+    score.losses = 0;
+    document.querySelector('.scores').innerHTML=`wins: ${score.wins}, losses: ${score.losses}`;
+  ">Reset score</button>
+</body>
+<script src="code.js"></script>
+</html>

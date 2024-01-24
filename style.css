@@ -1,0 +1,20 @@
+body{
+  background-color: rgb(32, 32, 32);
+  color: white;
+  font-family: sans-serif;
+}
+div{
+  display: inline-block;
+
+}
+img{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+button{
+  height: 30px;
+  width: 100px;
+  font-weight: 20px;
+  cursor: pointer;
+}
